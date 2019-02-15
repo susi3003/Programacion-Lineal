@@ -9,5 +9,5 @@ prob += x + y <= 2
 prob += -4*x + y
 
 status = prob.solve()
-
+assssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 print(value(x), value(y))
