@@ -1,10 +1,27 @@
 \documentclass{article}
 \usepackage{amsmath}
-\usepackage[spanish]{babel}
-\usepackage[utf8]{inputenc}
 \usepackage{amsfonts}
-
+\usepackage[utf8]{inputenc}
 \begin{document}
+Considera el siguiente problema:
+\begin{equation*}
+  \begin{aligned}
+    \text{Maximizar}\quad & x+y\\
+    \begin{aligned}
+      \text{Sujeto a}& \quad\\
+      x & \geq 0\\
+      y & \geq 0\\
+      2x+y & \leq 2\\
+    \end{aligned}
+    \end{aligned}
+  \end{equation*}
+  \begin{itemize}
+  \item Resuelve el problema por el método gráfico
+  \item Escribe el problema en su forma estándar, determinando A,b y c
+  \item Dibuja la región factible del problema estándar en $\mathbb{R}^3$
+  \item Determina todas las soluciones factibles básicas del problema estándar
+  \item Evalúa la función objetivo en las soluciones factibles básicas para determinar la solución óptima. Confirma el resultado anterior 
+  \end{itemize}
 Considera el siguiente problema:
 \begin{equation*}
 \begin{aligned}
